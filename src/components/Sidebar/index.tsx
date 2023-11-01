@@ -1,4 +1,4 @@
-import { Box, Center, Flex } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { AiFillHome, AiFillBook } from 'react-icons/ai';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiAccountCircleFill } from 'react-icons/ri';

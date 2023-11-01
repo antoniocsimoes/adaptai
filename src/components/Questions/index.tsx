@@ -7,7 +7,7 @@ import { Texts } from "../../utils";
 
 function Questions() {
   const navigate = useNavigate()
-  const { attempt, setAttempt, formatQuestions, questions, wrongQuestion } = useContext(QuestionContext)
+  const { attempt, setAttempt, formatQuestions, questions } = useContext(QuestionContext)
   useEffect(() => {
     const getQuestionsData = async () => {
       const response = await fetch('https://ivd6hpenglgsx6qyvadcs2zteu0zwmcw.lambda-url.us-east-1.on.aws/Questions_Tagueamento');
