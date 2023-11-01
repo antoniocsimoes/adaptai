@@ -1,0 +1,7 @@
+export enum Texts {
+    WELCOME_TEXT = "Prepare-se! Chegou a hora de você testar o conhecimento adquirido nesta disciplina. A Avaliação Virtual (AV) é composta por questões objetivas e corresponde a 100% da média final. Você tem até cinco tentativas para “Enviar” as questões, que são automaticamente corrigidas. Você pode responder as questões consultando o material de estudos, mas lembre-se de cumprir o prazo estabelecido. Boa prova!",
+    TOTAL_SUCCESS_FEEDBACK = "Estamos extremamente impressionados com o seu desempenho excepcional no questionário! Você não apenas acertou todas as questões, como também demonstrou uma compreensão profunda dos temas abordados, alcançando todas as competências que esperávamos. Sua dedicação e atenção aos detalhes ficaram claras.",
+    PARTIAL_SUCCESS_FEEDBACK = "Parabéns pelo esforço dedicado à atividade! Identificamos alguns pontos de atenção que, uma vez aprimorados, irão potencializar ainda mais o seu desempenho.",
+    TOTAL_FAIL_FEEDBACK = "Não desanime! Erros são oportunidades de aprendizado. Continue estudando e se esforçando, e você vai melhorar na próxima prova.",
+    PARTIAL_SUCCESS_FEEDBACK_CONTENT2 = "Continue se dedicando e buscando o seu melhor. Acredite no seu potencial e não hesite em buscar ajuda do seu tutor sempre que necessário. Estamos aqui para te apoiar!"
+}
