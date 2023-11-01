@@ -40,12 +40,12 @@ const Feedback: React.FC = () => {
 
     const goBackToQuestions = () => {
         setWrongQuestion([])
-        navigate('/questions')
+        navigate('/')
     }
 
     const endQuestions = () => {
         setAttempt(1)
-        navigate('/questions')
+        navigate('/')
     }
     return <Box mr={8}>
         <Box pt={10}>

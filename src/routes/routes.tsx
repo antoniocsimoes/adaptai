@@ -8,7 +8,7 @@ type Route = {
 
 export const routes: Route[] = [
     {
-        path: 'questions',
+        path: '',
         element: <Questions />
     },
     {
