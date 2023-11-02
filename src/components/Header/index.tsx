@@ -1,9 +1,10 @@
-import { Box, Flex, Text } from '@chakra-ui/react';
+import { Box, Flex, Text, useMediaQuery } from '@chakra-ui/react';
 import { TbArrowsVertical } from 'react-icons/tb';
 import { MdOutlineFormatSize, MdBrightnessHigh } from 'react-icons/md';
 
 
 const Header: React.FC = () => {
+    const [isSmallerThan800] = useMediaQuery('(max-width: 800px)')
     return (
         <>
             <Box
@@ -22,7 +23,7 @@ const Header: React.FC = () => {
                     <Text color={"#6c757d"} fontSize={14} fontWeight={700} pl={3}>• </Text>
                     <Text color={"#000"} fontSize={14} fontWeight={700} pl={3}> AVA</Text>
                     <Box width={850}></Box>
-                    <Flex
+                    {!isSmallerThan800 && <Flex
                         bg={'#f8f9fa'}
                         borderRadius={5}
                         width={500}
@@ -32,7 +33,7 @@ const Header: React.FC = () => {
                     >
                         <Text fontSize={12} pl={5} >Design thinking e inovacao dos modelos de negocios</Text>
                         <TbArrowsVertical size={12} />
-                    </Flex>
+                    </Flex>}
                     <Flex
                         pl={2}
                         pr={5}
